@@ -123,10 +123,7 @@ function Configurator() {
         px={3}
       >
         <MDBox>
-          <MDTypography variant="h5">Material UI Configurator</MDTypography>
-          <MDTypography variant="body2" color="text">
-            See our dashboard options.
-          </MDTypography>
+          <MDTypography variant="h5">Cài đặt</MDTypography>
         </MDBox>
 
         <Icon

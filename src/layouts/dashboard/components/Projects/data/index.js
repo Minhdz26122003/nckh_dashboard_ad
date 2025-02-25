@@ -1,27 +1,10 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/function-component-definition */
-/**
-=========================================================
-* Material Dashboard 2 React - v2.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Tooltip from "@mui/material/Tooltip";
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 import MDAvatar from "components/MDAvatar";
 import MDProgress from "components/MDProgress";
-
+import PropTypes from "prop-types";
 // Images
 import logoXD from "assets/images/small-logos/logo-xd.svg";
 import logoAtlassian from "assets/images/small-logos/logo-atlassian.svg";
@@ -69,6 +52,10 @@ export default function data() {
     </MDBox>
   );
 
+  Company.propTypes = {
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  };
   return {
     columns: [
       { Header: "companies", accessor: "companies", width: "45%", align: "left" },

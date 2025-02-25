@@ -1,16 +1,14 @@
 {
-  "name": "material-dashboard-2-react",
+  "name": "DashBoard",
   "version": "2.2.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "description": "React version of Material Dashboard 2 by Creative Tim",
+  "author": "Noname",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
+    "url": "https://github.com/Minhdz26122003/nckh_dashboard_ad/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
+    "url": "git+https://github.com/Minhdz26122003/nckh_dashboard_ad.git"
   },
   "dependencies": {
     "@emotion/cache": "11.10.8",
@@ -29,7 +27,6 @@
     "react-scripts": "5.0.1",
     "react-table": "7.8.0",
     "stylis": "4.1.4",
-    "stylis-plugin-rtl": "2.1.1",
     "yup": "1.1.1"
   },
   "scripts": {
